@@ -30,7 +30,7 @@ if($operation == "LOGIN"){
     } 
 } elseif($operation == "LOGOUT"){
     session_destroy();
-    header("Location: ../views/auth/login.php");
+    header("Location: /proyecto_web/index.php");
     die();
 } elseif($operation == "DELETE"){
     if (!isset($_SESSION["username"]) || empty("username")){

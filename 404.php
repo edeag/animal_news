@@ -7,7 +7,11 @@
     <title>Oops!</title>
 </head>
 <body>
-    <h1>ERROR 404</h1>
-    <h2>Noticia no encontrada!</h2>
+    <?php include("includes/nav.php"); ?>
+
+    <div class="wrapper">
+        <h1>ERROR 404</h1>
+        <h2>Noticia no encontrada!</h2>
+    </div>
 </body>
 </html>
